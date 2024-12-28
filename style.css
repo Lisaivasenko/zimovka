@@ -1,0 +1,158 @@
+@font-face {
+    font-family: 'Forma DJR Cyrillic Display';
+    src: url('fonts/FormaDJRCyrillicDisplay-Bold.eot');
+    src: url('fonts/FormaDJRCyrillicDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/FormaDJRCyrillicDisplay-Bold.woff2') format('woff2'),
+        url('fonts/FormaDJRCyrillicDisplay-Bold.woff') format('woff'),
+        url('fonts/FormaDJRCyrillicDisplay-Bold.ttf') format('truetype'),
+        url('fonts/FormaDJRCyrillicDisplay-Bold.svg#FormaDJRCyrillicDisplay-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Forma DJR Cyrillic Deck';
+    src: url('fonts/FormaDJRCyrillicDeck-Regular.eot');
+    src: url('fonts/FormaDJRCyrillicDeck-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/FormaDJRCyrillicDeck-Regular.woff2') format('woff2'),
+        url('fonts/FormaDJRCyrillicDeck-Regular.woff') format('woff'),
+        url('fonts/FormaDJRCyrillicDeck-Regular.ttf') format('truetype'),
+        url('fonts/FormaDJRCyrillicDeck-Regular.svg#FormaDJRCyrillicDeck-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Forma DJR Cyrillic Deck';
+    src: url('fonts/FormaDJRCyrillicDeck-Medium.eot');
+    src: url('fonts/FormaDJRCyrillicDeck-Medium.eot?#iefix') format('embedded-opentype'),
+        url('fonts/FormaDJRCyrillicDeck-Medium.woff2') format('woff2'),
+        url('fonts/FormaDJRCyrillicDeck-Medium.woff') format('woff'),
+        url('fonts/FormaDJRCyrillicDeck-Medium.ttf') format('truetype'),
+        url('fonts/FormaDJRCyrillicDeck-Medium.svg#FormaDJRCyrillicDeck-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Forma DJR Cyrillic Deck';
+    src: url('fonts/FormaDJRCyrillicDeck-Light.eot');
+    src: url('fonts/FormaDJRCyrillicDeck-Light.eot?#iefix') format('embedded-opentype'),
+        url('fonts/FormaDJRCyrillicDeck-Light.woff2') format('woff2'),
+        url('fonts/FormaDJRCyrillicDeck-Light.woff') format('woff'),
+        url('fonts/FormaDJRCyrillicDeck-Light.ttf') format('truetype'),
+        url('fonts/FormaDJRCyrillicDeck-Light.svg#FormaDJRCyrillicDeck-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #354367;
+    color: #fff;
+    font-family: 'Forma DJR Cyrillic Deck';
+    font-weight: normal;
+}
+
+.head {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    padding-left: 54px;
+    font-size: 48px;
+}
+
+.presentation {
+ background-image: url(images/Group\ 19.png);
+ background-position: center bottom;
+ background-repeat: no-repeat;
+ height: 600px;
+}
+
+.title {
+    text-align: center;
+    font-size: 100px;
+    padding-top: 100px;
+}
+
+.about {
+    background-color: #ABD7DB;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding-top: 38px;
+}
+
+.äbout-container {
+    max-width: 1200px;
+    padding: 50px 0;
+}
+
+.text1{
+width: 509px;
+color: #354367;
+font-size: 38px;
+}
+
+.presentation2 {
+    background-image: url(images/Group\ 25.png);
+    display: flex;
+    justify-content: center;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    max-width: 1400px;
+    margin: 0 auto;
+    height: 800px;
+   }
+
+   .text2{
+    vertical-align:middle;
+    text-align: center;
+    color: #fff;
+    font-size: 96px;
+    margin-top: 100px;
+    }
+   .names {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 40px;
+    padding-bottom: 50px;
+    padding-left: 455px;
+    padding-right: 455px;
+    }
+
+    .presentation3 {
+        background-image: url(images/Group\ 24.png);
+        display: flex;
+        justify-content: center;
+        max-width: 1400px;
+        margin: 0px auto;
+        }
+
+        .thebest{
+            display: flex;
+            justify-content: center;
+        }
